@@ -1,0 +1,115 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  hsl(225, 100%, 94%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.imageone{
+    background: url('images/pattern-background-desktop.svg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 60vh;
+    /* border-radius: 15px; */
+
+}
+.work {
+    width: 900px;
+    margin: 40px auto;
+    background-color:hsl(240, 100%, 100%);
+    border-radius: 15px;
+    padding-bottom: 35px;
+
+} 
+.work img{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+}
+h1{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 25px;
+}
+.work-text{
+    text-align: center;
+    margin-top: 15px;
+    opacity: .5;
+}
+.pad {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #F8F9FE;
+    border-radius: 15px;
+    padding: 10px 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.pad img{
+    width: 40px;
+    border: 1px solid bisque;
+    border-radius: 50px;
+}
+.pin{
+    background-color:rgb(253, 253, 253);
+    font-size: 13px;
+    margin-top: 25px;
+}
+
+.one{
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+.two{
+    opacity: .5;
+}
+
+.purple{
+    margin-top: 25px;
+    background-color: #382AE2;
+    padding: 8px 6px;
+    padding-left: 5px;
+    border-radius: 10px;
+    width: 20%;
+    margin: 35px auto;
+    box-shadow: 5px 5px 5px #35363A;
+
+    
+}
+.pix{
+    color: #0b0b0c;
+    font-size: 12px;
+    text-align: center;
+    background-color: #382AE2;
+    font-size: 18px;
+    opacity: .9;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.final{
+    text-align: center;
+    opacity: .6;
+
+}
+
+.black{
+    
+}
+

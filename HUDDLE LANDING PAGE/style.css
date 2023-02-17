@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("images/bg-desktop.svg");
+    background-color: #674BB1;
+}
+
+.semi-container{
+    margin-left:  60px;
+    display: flex;
+}
+
+
+.img-text {
+    margin-top: 40px;
+}
+
+
+.the-picture >img{
+    margin-top: 4rem;
+}
+.side-text{
+    margin-top: 14em;
+    margin-left: 50px;
+}
+
+.h-two{
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    font-size: 55px;
+}
+
+.p-tag {
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.button {
+    padding: 12px 44px;
+    border-radius: 30px;
+    margin-top: 30px;
+    
+  box-shadow: 3px 3px 2px #2b2a2a;
+}
+
+.button:hover {
+    /* transform: rotate(20deg);  */
+    /* transform: scale(2, 3); */
+    /* transform: scale(0.5, 0.5); */
+    /* transform: scaleX(1.2); */
+    /* transform: skewX(20deg); */
+
+    /* width: 200px;
+    height: 100px;
+    background: red;
+    transition: width 2s; */
+
+    /* width: 190px; */
+    width: 100px;
+     height: 100px;
+    background: red;
+    -webkit-animation: width 2s, height 4s;
+
+   /* transform:  skew(20deg); */
+   /* transform: matrix(1, -0.3, 0, 1, 0, 0); */
+   /* transform: rotateZ(150deg) */
+   /* -webkit-transition: width 2s; Safari prior 6.1 */
+  /* -webkit-animation: width 2s; */
+}
+
+.social-icon{
+    margin-left: 30rem;
+}
+
+.social-icon > img {
+    height: 30px;
+    width: 30px;
+    margin-top: 10rem;
+    margin-left: 1rem;
+}

@@ -1,0 +1,65 @@
+body{
+    background-color: #F2F2F2;
+}
+
+.container{
+    display: flex;
+    padding: 16em;
+    border-radius: 10px;
+    height:auto;
+    font-size: 17px;
+}
+.sedans{
+    padding: 4em;
+    background-color: #E28525;
+}
+
+.suv {
+    padding: 4em;
+    background-color: #016972;
+}
+
+.luxury {
+    padding: 4em;
+    background-color: #00403F;
+}
+
+p {
+    color: #EFFBFA;
+}
+
+h1 {
+    color: #EFFBFA;
+}
+
+span{
+    font-size: 16px;
+    font-weight: 600;
+}
+button{
+    
+    border-radius: 50px;
+    border-color: #ffffff;
+    background-color: #ffffff;
+    margin-top: 50px;
+    outline: none;
+    border: none;
+    width: 130px;
+    height: 40px;
+
+}
+
+.one{
+    color: #E28525;
+}
+.two {
+    color: #016972;
+}
+.three {
+    color: #00403F;
+}
+
+/* .btn-1:hover  {
+    background-color: #E28525;
+    color: #EFFBFA;
+} */
